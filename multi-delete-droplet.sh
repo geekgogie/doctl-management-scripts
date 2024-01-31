@@ -8,7 +8,7 @@ droplet_delete_multi() {
     ## droplets=$(doctl compute droplet list|grep "paul_unibank_training"|grep "ubuntu-s-2vcpu")
 	##  cat droplets.txt | sed -Ee 's| +| |g'|cut -d ' ' -f1,2,3,15
 	droplets_id=$(cat droplets.txt | cut -d ' ' -f1)
-	to_be_removed=$(cat droplets.txt | cut -d ' ' -f1,2,3,15)
+	to_be_removed=$(cat droplets.txt | sed -Ee 's| +| |g' | cut -d ' ' -f1,2,3,15)
 
 
 	echo ""

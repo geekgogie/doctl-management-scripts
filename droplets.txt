@@ -1,5 +1,3 @@
-396160011  mysqlrepl1     157.245.55.103   10.130.0.28  mysql-repl,paul                Rocky   Linux  8      x64     2048   1
-396160086  mysqlrepl2     178.128.110.2    10.130.0.29  mysql-repl,paul                Rocky   Linux  8      x64     2048   1
-396160318  galera1        165.22.61.3      10.130.0.31  galera,paul                    Rocky   Linux  8      x64     2048   1
-396160469  galera2        188.166.250.240  10.130.0.33  galera,paul                    Rocky   Linux  8      x64     2048   1
-396160565  galera3        68.183.224.172   10.130.0.34  galera,paul                    Rocky   Linux  8      x64     2048   1
+398685904  galera1        68.183.179.94    10.130.0.34  galera,paul                    Rocky   Linux  8      x64     2048   1
+398685979  galera2        104.248.150.122  10.130.0.37  galera,paul                    Rocky   Linux  8      x64     2048   1
+398686118  galera3        178.128.112.174  10.130.0.40  galera,paul                    Rocky   Linux  8      x64     2048   1
